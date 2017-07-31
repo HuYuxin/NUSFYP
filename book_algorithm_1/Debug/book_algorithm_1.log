@@ -1,0 +1,65 @@
+﻿  stdafx.cpp
+  Illegal_parking_detection.cpp
+d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): error C2259: 'cv::BackgroundSubtractorMOG2': cannot instantiate abstract class
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: due to following members:
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractor::apply(cv::InputArray,cv::OutputArray,double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(72): note: see declaration of 'cv::BackgroundSubtractor::apply'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractor::getBackgroundImage(cv::OutputArray) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(81): note: see declaration of 'cv::BackgroundSubtractor::getBackgroundImage'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'int cv::BackgroundSubtractorMOG2::getHistory(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(95): note: see declaration of 'cv::BackgroundSubtractorMOG2::getHistory'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setHistory(int)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(98): note: see declaration of 'cv::BackgroundSubtractorMOG2::setHistory'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'int cv::BackgroundSubtractorMOG2::getNMixtures(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(102): note: see declaration of 'cv::BackgroundSubtractorMOG2::getNMixtures'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setNMixtures(int)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(107): note: see declaration of 'cv::BackgroundSubtractorMOG2::setNMixtures'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getBackgroundRatio(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(115): note: see declaration of 'cv::BackgroundSubtractorMOG2::getBackgroundRatio'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setBackgroundRatio(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(118): note: see declaration of 'cv::BackgroundSubtractorMOG2::setBackgroundRatio'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getVarThreshold(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(125): note: see declaration of 'cv::BackgroundSubtractorMOG2::getVarThreshold'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setVarThreshold(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(128): note: see declaration of 'cv::BackgroundSubtractorMOG2::setVarThreshold'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getVarThresholdGen(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(138): note: see declaration of 'cv::BackgroundSubtractorMOG2::getVarThresholdGen'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setVarThresholdGen(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(141): note: see declaration of 'cv::BackgroundSubtractorMOG2::setVarThresholdGen'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getVarInit(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(145): note: see declaration of 'cv::BackgroundSubtractorMOG2::getVarInit'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setVarInit(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(148): note: see declaration of 'cv::BackgroundSubtractorMOG2::setVarInit'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getVarMin(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(150): note: see declaration of 'cv::BackgroundSubtractorMOG2::getVarMin'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setVarMin(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(151): note: see declaration of 'cv::BackgroundSubtractorMOG2::setVarMin'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getVarMax(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(153): note: see declaration of 'cv::BackgroundSubtractorMOG2::getVarMax'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setVarMax(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(154): note: see declaration of 'cv::BackgroundSubtractorMOG2::setVarMax'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getComplexityReductionThreshold(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(162): note: see declaration of 'cv::BackgroundSubtractorMOG2::getComplexityReductionThreshold'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setComplexityReductionThreshold(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(165): note: see declaration of 'cv::BackgroundSubtractorMOG2::setComplexityReductionThreshold'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'bool cv::BackgroundSubtractorMOG2::getDetectShadows(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(172): note: see declaration of 'cv::BackgroundSubtractorMOG2::getDetectShadows'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setDetectShadows(bool)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(175): note: see declaration of 'cv::BackgroundSubtractorMOG2::setDetectShadows'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'int cv::BackgroundSubtractorMOG2::getShadowValue(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(182): note: see declaration of 'cv::BackgroundSubtractorMOG2::getShadowValue'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setShadowValue(int)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(185): note: see declaration of 'cv::BackgroundSubtractorMOG2::setShadowValue'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'double cv::BackgroundSubtractorMOG2::getShadowThreshold(void) const': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(194): note: see declaration of 'cv::BackgroundSubtractorMOG2::getShadowThreshold'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(95): note: 'void cv::BackgroundSubtractorMOG2::setShadowThreshold(double)': is abstract
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(197): note: see declaration of 'cv::BackgroundSubtractorMOG2::setShadowThreshold'
+d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(155): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'cv::Mat'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(155): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(157): error C2039: '()': is not a member of 'cv::BackgroundSubtractorMOG2'
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(90): note: see declaration of 'cv::BackgroundSubtractorMOG2'
+d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(185): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'cv::Mat'
+  d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(185): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(188): error C2039: '()': is not a member of 'cv::BackgroundSubtractorMOG2'
+  c:\opencv\build\include\opencv2\video\background_segm.hpp(90): note: see declaration of 'cv::BackgroundSubtractorMOG2'
+d:\mastercourses\jobs\portofolio\fyp\parkingdetectionnew\book_algorithm_1\illegal_parking_detection.cpp(212): warning C4018: '<': signed/unsigned mismatch
